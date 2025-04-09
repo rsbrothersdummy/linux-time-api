@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: linux-time-api
+    env: python
+    buildCommand: ""
+    startCommand: python3 linux_time_api.py
+    plan: free
+    envVars: []
+
